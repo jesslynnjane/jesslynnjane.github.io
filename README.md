@@ -1,6 +1,4 @@
-# My Technical Blog
-testing
-testing
-Address: [http://nmonarizqa.github.io](http://nmonarizqa.github.io)
+# My Personal Exploration
+Address: [http://jesslynnjane.github.io](http://jesslynnjane.github.io)
 
-Based on [Skinny Bones](http://mmistakes.github.io/skinny-bones-jekyll/) (*work in progress*).
+Inspired by [nmonarizqa](http://github.com/nmonarizqa/nmonarizqa.github.io/).
