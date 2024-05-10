@@ -5,7 +5,7 @@ author: Jesslyn Jane
 share: true
 modified: 2021-01-12T16:00:57-04:00
 image:
-    feature: profpic2.jpg
+    feature: profpic2.jpeg
 ---
 
 Hey there! I'm Jesslyn Jane, but everyone calls me JJ. I'm a geologist and a data enthusiast, currently living back and forth from Singapore to Indonesia.
