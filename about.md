@@ -1,18 +1,20 @@
 ---
 layout: article
 title: About Me
-author: Nurvirta Monarizqa
+author: Jesslyn Jane
 share: true
 modified: 2021-01-12T16:00:57-04:00
 image:
-    feature: head2.jpg
+    feature: profpic2.jpg
 ---
 
-Hello, my name is Nurvirta Monarizqa, but simply call me Mona. 
+Hey there! I'm Jesslyn Jane, but everyone calls me JJ. I'm a geologist and a data enthusiast, currently living back and forth from Singapore to Indonesia.
 
-I am a Data Scientist, working for [Microsoft](https://twitter.com/msftsecurity) and currently residing in Bellevue, across the lake from Seattle. An alumna of [Urban Science + Progress, New York University](https://twitter.com/NYU_CUSP)
+I am currently working in mining, following a schedule where I'm on-site for four weeks and off-site for two. On-site, I crunch data as a database geologist. Off-site, I work on projects, like the portfolio you're checking out now.
 
-I love playing with data and visualization, especially when it comes to data for greater good. Besides data analytics, sometimes I do web design and digital illustrations. You can see my portofolio [here](/portofolio/), my resume on [LinkedIn](https://www.linkedin.com/in/nmonarizqa), or my other writings on [Medium](https://medium.com/@nmonarizqa).
+I've always been so excited with numbers and handling data, so feel free to check it out my portfolio [here](/portofolio/). Besides work, I'm all about traveling and drawing. I pour my heart into my art, and you can see some of them here.
 
-Let's keep in touch! Drop me a message at nmonarizqa [at] windowslive [dot] com. See you there :)
+Let's stay in touch! Drop me a message at jesslyn [dot] jane [dot] k [at] gmail [dot] com. See you there :)
+
+
 

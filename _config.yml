@@ -26,14 +26,13 @@ gems:
 
 # Site owner
 owner:
-  name: "Nurvirta Monarizqa"
-  email: "nmonarizqa@windowslive.com"
-  twitter: "nmonarizqa"
+  name: "Jesslyn Jane"
+  email: "jesslyn.jane.k@gmail.com"
   google:
     ad-client:
     ad-slot:
-  bio: "Urban, Data, Visualization, and everything in between."
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  bio: "Be Yourself"
+  avatar: profpic2.jpg # 160x160 px image for author byline
   disqus-shortname:
 
 
