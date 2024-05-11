@@ -4,7 +4,7 @@ title: "Data Science: Marketing Campaign"
 share: true
 modified: 2017-02-12T14:18:57-04:00
 image:
-    teaser: halcyon.jpg
+    teaser: halcyon.png
 categories: portofolio
 ---
 

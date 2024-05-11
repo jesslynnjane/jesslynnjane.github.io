@@ -5,15 +5,13 @@
   excerpt: "Things I’ve analyzed, designed, or developed."
   image: portofolio.PNG
 
-- title: Art
-  url: /art/
-
-- title: About
-  url: /about/
-
 - title: GitHub
   url: https://github.com/jesslynnjane
 
 - title: LinkedIn
   url: https://www.linkedin.com/in/jesslyn-jane/
+
+- title: About
+  url: /about/
+
 
