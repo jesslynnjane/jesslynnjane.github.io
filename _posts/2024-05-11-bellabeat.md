@@ -1,0 +1,232 @@
+---
+layout: article
+title: "Data Analytics: Bellabeat Case Study"
+share: true
+modified: 2017-02-12T14:18:57-04:00
+image:
+    teaser: bellabeat.png
+categories: portofolio
+---
+
+*A project aimed at identifying trends in consumer usage of Bellabeat devices, with the goal of leveraging these insights to foster new growth opportunities for Bellabeat and enhance its marketing strategy.*
+
+<strong>Authors</strong>: Jesslyn Jane. This is a project I have worked through as part of the final capstone in [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). 
+
+Demo: [Kaggle](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet) | [PPT](https://drive.google.com/file/d/1DMqqqfeJOWNRPO8WXe8OGlhuECqGytNb/view?usp=sharing)
+
+
+## Introduction 
+​
+I am wearing the hat of a **junior data analyst**, working in the marketing analyst team at [**Bellabeat**](https://bellabeat.com/), a high-tech manufacturer of health-focused products for women. Bellabeat is a successful small company, but they have the potential to become a larger player in the global smart device market. 
+​
+Urška Sršen, cofounder and Chief Creative Officer of Bellabeat, believes that analyzing smart device fitness data could help unlock new growth opportunities for the company. They offer different smart devices that collect data on activity, sleep, stress, and reproductive health to empower women with knowledge about their own health and habits. The main objective of this case is to analyze smart devices fitness data and determine how it could help unlock new growth opportunities for Bellabeat. We will focus on one of Bellabeat’s products: **Bellabeat app**.
+​
+The Bellabeat app provides users with health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. This data can help users better understand their current habits and make healthy decisions. The Bellabeat app connects to their line of smart wellness products.
+
+## Method Approach 
+
+In this project, I will use 6 steps to ensure its completion:
+1. Ask
+2. Prepare
+3. Process
+4. Analyze
+5. Share
+6. Act
+
+## Phase 1: Ask
+
+**Business Task:** Identify some trends in how consumers use the Bellabeat devices and how these trends can help improve new opportunities growth for Bellabeat as well as marketing strategy.
+
+## Phase 2: Prepare
+
+### 2.1 Dataset Used
+In this project, I will be using datasets from [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit), which has been published by Möbius in Kaggle under the CC0: Public Domain Creative Common License.
+
+### 2.2 Dataset Summary
+I downloaded zip files provided, then extracted to csv files. There are 18 datasets, but I only used 6 datasets for this study. Each document represents different quantitative data tracked by Fitbit. 
+
+![Dataset Summary](https://i.imgur.com/h8hBHal.png)
+
+### 2.3 Dataset Limitations and Integrity <a class="anchor" id="dataset_limitations"></a>
+I used excel to take a glimpse of the data. The data collected was only during a 31-day period (04-12-2016 to 05-12-2016), so it was quite outdated as fitness trackers matured a lot since then. No demographic information (gender, location, age) collected makes the data bias even higher.
+
+## Phase 3: Process <a class="anchor" id="process"></a>
+
+To begin processing the data, I used SQL in BigQuery as one of the data analytics tools, to import the dataset, do the process of cleaning and organizing. The cleaning process included adjusting data type formats, removing duplicates and null data. I extracted the clean data to new csv and stored it. I documented the whole process of cleaning.
+
+### 3.1 Using Spreadsheet to Convert Data Type<a class="anchor" id="datatype"></a>
+Converting data type can be done by using Microsoft SQL Server Management Studio, which can be downloaded [here](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiozpbV0eP5AhXXm9gFHRCUC-cQFnoECAkQAQ&url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fsql%2Fssms%2Fdownload-sql-server-management-studio-ssms&usg=AOvVaw0lyOH3pLQhzpXKmKqWw-BW). If you are interested in doing SQL in this server, you can seek assistance from [Sayantan Bagchi's Bellabeat Case Study](https://www.kaggle.com/code/sayantanbagchi/bellabeat-case-study-sql-and-tableau?scriptVersionId=91771103&cellId=1).
+
+However, using BigQuery to convert the data type is quite challenging, as you need to convert it using *CAST()* function everytime in each query statement. As I am still learning and finding ways up until now, I decided to use Spreadsheet to change the data type of all date column into "Date" format.
+
+### 3.2 Importing Datasets <a class="anchor" id="import_datasets"></a>
+After converting some date-related data into "Date" format, I opened [Bigquery Console](https://console.cloud.google.com/bigquery), then select "Create Project". Typed down the name of the project you are going to explore, in this case I used *data-analytics-00*. I created a new dataset for Bellabeat and named it *bellabeat*. Inside bellabeat dataset, I imported the .csv datasets I previously downloaded from [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit) (Note: Don't forget to unzip the file). 
+
+After that, I started my work by finding the total number of users' id. All the query syntax can be found [here](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet).
+
+### 3.3 Comparing Datasets <a class="anchor" id="compare_datasets"></a>
+There are 3 datasets that seem to have some similarities: daily_calories, daily_intensities, daily_steps with daily_activity. I checked if the id and date of those 3 tables are the same with the one in daily_activity.
+
+It showed that data in calories, intensities, and steps have the same number of rows and described the exact data. We could conclude that the daily data of calories, intensities, and steps are the same with daily_activity, so we only focus on daily_activity data.
+
+The remaining datasets that would be used in this study:
+* daily_activity
+* sleep_day
+* weight_log
+
+### 3.4 Checking Start-End Date and Id <a class="anchor" id="check_date_id"></a>
+I checked the start and end date in each dataset, as well as the length of id. 
+
+It showed that all datasets have the same start and end date: start *2016-04-12* and end *2016-05-12*. In term of id's length, all datasets also showed the same length: *10 characters*.
+
+### 3.5 Cleaning Data <a class="anchor" id="clean"></a>
+
+#### 3.5.1 Find Duplicates <a class="anchor" id="duplicates"></a>
+Duplicates might decrease the quality of data, hereby I had to find and remove them.
+
+According to the result of finding duplicates, it showed that there are 3 duplicate rows in sleep_day dataset. We need to create a new sleep_day table, and remove the duplicates in the new table. In this case, I named the new table: *sleep_day_new*.
+
+#### 3.5.2 Find Unsuitable Data <a class="anchor" id="unsuitable_data"></a>
+During the checking and cleaning process, I found that there were some zero data in TotalSteps column inside the daily_activity dataset. Therefore, I decided to check and remove those zero value. I created new table and named it daily_activity_new, so that the previous dataset still remained.
+
+#### 3.5.3 Find Null Data <a class="anchor" id="null"></a>
+Null values also contributed in the quality of the data. I checked whether the datasets have null data, then removed them.
+
+
+## Phase 4: Analyze <a class="anchor" id="analyze"></a>
+After cleaning the data, 3-clean dataset will be used to do the analysis process. In this process, I organized and formatted the data,
+performed some calculations, and identified trends as well as relationships between each variable.
+
+### 4.1 User Type Distribution by Tracker-Wear <a class="anchor" id="4_1"></a>
+Firstly, I wanted to breakdown the users by how much they wore their FitBit Fitness Tracker. I created three user types:
+* Vigorous User → wear their tracker for 21 – 31 days
+* Moderate User → wear their tracker for 11 – 20 days
+* Gentle User → wear their tracker for 1 -10 days
+
+*[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1TReG_D5GOJPyRlB8jHlvQwczBfsJRBMg98LRmT_yL_A/edit?usp=sharing)*
+
+![User type distribution by tracker-wear](https://i.imgur.com/WZk0Z8k.png)
+
+*Key Takeaway:*
+**More than 80%** of the users used Fitbit Fitness Tracker frequently – between 21 to 31 days (Vigorous User).
+
+### 4.2 Look Deep into Activity <a class="anchor" id="4_2"></a>
+
+#### 4.2.1 Average activity minutes by day of week <a class="anchor" id="4_2_1"></a>
+In this daily_activity_new dataset, I wanted to analyze some parameters. The first one was the average active minutes by day of week.
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1pMw-sqH2nZa5gTH4DNAY6rlZvedfPlJLI0FXVfJ8eBw/edit?usp=sharing)
+
+![Average activity minutes by day of week](https://i.imgur.com/pDjFw3p.png)
+
+*Key Takeaway:*
+* Total average active minutes shows **slightly difference** throughout the week
+* **Sedentary Minutes** are the highest type of active minutes
+
+#### 4.2.2 User type distribution by total steps <a class="anchor" id="4_2_2"></a>
+Tyron (2003) pointed out in his journal that having steps everyday might be a perfect parameter to acquire data about our physical activity. Therefore, we will use total steps data as part of our analysis.
+
+Tudor-Locke and Bassett (2004) proposed a steps-per-day classification, such as:
+* Sedentary Lifestyle → total steps per day <5000
+* Physically Inactive → total steps per day 5000 - 7499
+* Moderately Active → total steps per day 7500 - 9999
+* Physically Active → total steps per day 10000 – 12499
+* Physically Active → total steps per day >= 12500
+
+I made the user type distribution based on the above categories.
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1iIz9_cOtLTxBA7TJTYisoJAqgFjogRFZbQxARD1LZTU/edit?usp=sharing)
+
+![User type distribution by totalsteps](https://i.imgur.com/9yNKdpT.png)
+
+*Key Takeaway:*
+* **More than a third** of the users are considered moderately active
+
+#### 4.2.3 Average Steps, distances, calories by day of week <a class="anchor" id="4_2_3"></a>
+Next, I wanted to know the average of steps, distances, and calories spent per week.
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1Bo6yH_HaH_HUMshQvXvd7HJTrhcVu_iqWOTD32k6Upc/edit?usp=sharing)
+
+![Average steps, distances, calories](https://i.imgur.com/SqlXyMj.png)
+
+*Key Takeaway:*
+* The highest average step and distance per day was on **Sunday** and **Wednesday** with **almost 9 thousand steps** and **6 km distance**.
+* Average calories shows little difference throughout the week.
+
+#### 4.2.4 Average total steps vs calories <a class="anchor" id="4_2_4"></a>
+I wanted to look if there was a correlation between total steps and calories. 
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1BlMb3UUbH9iH_U05TWbojYIBwWU95zYoND77MrxSayE/edit?usp=sharing)
+
+![average total step vs calories](https://i.imgur.com/ZeNnk8S.png)
+
+*Key Takeaway:*
+* There is **high correlation** between average total step and calories
+
+### 4.3 Look Deep into Sleep <a class="anchor" id="4_3"></a>
+
+#### 4.3.1 Average sleep time and awake time by day of week <a class="anchor" id="4_3_1"></a>
+In this sleep_day_new dataset, I wanted to analyze 2 parameters. The first one was the average sleep time and awake per week.
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1Ow3okmZ4Jju5mEJfICgWO8o2mkth5PthvzE4qFX3oAA/edit?usp=sharing)
+
+![Average time asleep and awake](https://i.imgur.com/QMJtvvY.png)
+
+*Key Takeaway:*
+* There isn’t a whole lot of difference between each day in terms of average time in bed and time awake.
+* The highest average time in bed within a week falls on **Tuesday**.
+
+*Further analysis:*
+* Check on whether this pattern was the same every month
+
+#### 4.3.2 Average total minutes asleep, steps, calories <a class="anchor" id="4_3_2"></a>
+Next, I combined daily_activity_new and sleep_day_new to compare the total minutes asleep, steps, and calories. I used *inner join* formula because not all the sleep data are in the daily activity table, so I only needed to calculate the overlayed data.
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1h_wMmAcEJhdqEhcSTr7VihzSxy9IX3OGQN9s6u5jZI4/edit?usp=sharing)
+
+![total minutes asleep, steps, calories](https://i.imgur.com/uvHhnj1.png)
+
+*Key Takeaway:*
+* There is **no correlation** between average total steps and average amount of minutes users sleep.
+* **No correlation** is found between average total minutes of sleep and average calories.
+
+### 4.4 Look Deep into Weight <a class="anchor" id="4_4"></a>
+
+#### 4.4.1 Average weight vs non-sedentary minutes <a class="anchor" id="4_4_1"></a>
+In this weight_log_new dataset, I wanted to see the trend of individuals' weight by their activity minutes.
+
+[The result is in Spreadsheet](https://docs.google.com/spreadsheets/d/1LP-q1U_axtxji0390sYmBVhWnuWgsCmhzvs5OFsPCpo/edit?usp=sharing)
+
+![average weight vs non-sedentary minutes](https://i.imgur.com/oDuZs7I.png)
+
+*Key Takeaway:*
+* User with **low exercise** shows **overweighted** (134 kg).
+* Users with weight of <70 kg had been more active.
+
+## Phase 5: Share <a class="anchor" id="share"></a>
+The share phase is done by presenting this report.
+
+Some conclusions I can draw from the data:
+* In a period of a month (April to May 2016), there were 83% of users in Vigorous category when it came to how frequently they wore their tracker.
+* Most of the users were not active, as sedentary minutes show the highest value.
+* 73,5% users were not reaching 10.000 steps a day.
+* Wednesday and Sunday made up to the most active day. 
+* Higher steps spent means that higher calories was burnt.
+* The highest average time in bed within a week falls on Tuesday.
+* There is no significant correlation between steps, calories, and total minutes asleep.
+* The more intense users worked out, the better for them to reach their weight goal.
+
+## Phase 6: Act <a class="anchor" id="act"></a>
+The act phase would be done by the production and marketing team of the company. The main takeaway will be the top three recommendations:
+
+1. Marketing team can showcase about **the importance of doing sport activities daily**, by highlighting the strong correlation between total active minutes with healthy weight, so that users might build a self-conscious about using the product regularly.
+
+2. Production team can improve the **notification feature** of the tracker app as reminders for the users to achieve their goal and increase total steps each day.
+
+3. Production team can provide **reward system**, based on total amount of steps reaching daily, weekly, monthly, to boost the energy and motivation of workout.
+
+### Journal Reference <a class="anchor" id="journal"></a>
+* Tryon WW. Activity measurement in psychology and medicine. New York: Springer Science & Business Media; 2013.
+* Tudor-Locke CE, Bassett DR. How many steps are enough? Pedometer-determined physical activity indices. Sports Med. 2004;34(1):1–8. 
+
+[Kaggle](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet) | [PPT](https://drive.google.com/file/d/1DMqqqfeJOWNRPO8WXe8OGlhuECqGytNb/view?usp=sharing)
