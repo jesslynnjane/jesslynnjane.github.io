@@ -5,7 +5,7 @@ share: true
 modified: 2017-08-01T18:32:57-07:00
 image:
     teaser: busstat.jpg
-categories: portofolio
+categories: art
 ---
 
 [Busstat.nyc](http://www.busstat.nyc) is a dashboard that communicates overall reliability of New York City MTA buses to the public, on a line-by-line basis.
