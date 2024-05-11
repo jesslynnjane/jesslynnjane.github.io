@@ -1,14 +1,16 @@
 ---
-layout: article
-title: About Me
-author: Jesslyn Jane
-share: true
-modified: 2021-01-12T16:00:57-04:00
-image:
-    feature: profpic2.jpeg
+layout: archive
+permalink: /about/
+title: "About Me"
 ---
 
+This is a new about page lah 
+
+# Blah blah
+
 Hey there! I'm Jesslyn Jane, but everyone calls me JJ. I'm a geologist and a data enthusiast, currently living back and forth from Singapore to Indonesia.
+
+---
 
 I am currently working in mining, following a schedule where I'm on-site for four weeks and off-site for two. On-site, I crunch data as a database geologist. Off-site, I work on projects, like the portfolio you're checking out now.
 
