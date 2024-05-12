@@ -4,19 +4,26 @@ permalink: /about/
 title: "About Me"
 ---
 
-This is a new about page lah 
+I'm a geologist driven by curiosity and love in the geoscience field. My journey so far has been marked by a commitment to collaborative work and a passion for exploring the potential within data. I've had the privilege of contributing to various projects, where teamwork and effective communication played crucial roles.
 
-# Blah blah
+In dynamic environments, I've found my niche, navigating through programming languages like SQL and Python, and exploring visualization tools such as PowerBI, Tableau, and Looker. I'm also familiar with 3D modeling software like Leapfrog and Micromine. I've also had the chance to create automated systems for data analysis and user convenience. My aspiration is to bring my skills and experiences to a forwardthinking organization, where I can contribute to innovative initiatives and achieve success together.
 
-Hey there! I'm Jesslyn Jane, but everyone calls me JJ. I'm a geologist and a data enthusiast, currently living back and forth from Singapore to Indonesia.
+# Professional Experience
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+----
+ &nbsp; | &nbsp; 
+ --- | --- 
+ February 2023 - present | **Database Geologist**, PT Merdeka Copper Gold Tbk 
+ August 2020 - November 2021 | **Junior Geologist**, PT Kapuas Prima Coal Tbk 
+ May 2019 - October 2019 | **Student Intern**, Center for Research and Development of Geological Disaster Technology 
 
 ---
 
-I am currently working in mining, following a schedule where I'm on-site for four weeks and off-site for two. On-site, I crunch data as a database geologist. Off-site, I work on projects, like the portfolio you're checking out now.
 
-I've always been so excited with numbers and handling data, so feel free to check it out my portfolio [here](/portofolio/). Besides work, I'm all about traveling and drawing. I pour my heart into my art, and you can see some of them here.
-
-Let's stay in touch! Drop me a message at jesslyn [dot] jane [dot] k [at] gmail [dot] com. See you there :)
 
 
 
