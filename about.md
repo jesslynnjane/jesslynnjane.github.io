@@ -16,10 +16,10 @@ td, th {
 </style>
 ----
  &nbsp; | &nbsp; 
- --- | --- 
- February 2023 - present | **Database Geologist**, PT Merdeka Copper Gold Tbk 
- August 2020 - November 2021 | **Junior Geologist**, PT Kapuas Prima Coal Tbk 
- May 2019 - October 2019 | **Student Intern**, Center for Research and Development of Geological Disaster Technology 
+| --- | --- |
+| February 2023 - present | **Database Geologist**, PT Merdeka Copper Gold Tbk |
+| August 2020 - November 2021 | **Junior Geologist**, PT Kapuas Prima Coal Tbk |
+| May 2019 - October 2019 | **Student Intern**, Center for Research and Development of Geological Disaster Technology |
 
 ---
 
