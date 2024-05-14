@@ -80,6 +80,7 @@ From these results, it is highly likely that they will be prioritized as feature
 - What is the influence of having kidhome and teenhome on customer response rates?
 <img width="240" alt="image" src="https://user-images.githubusercontent.com/88579085/212469071-dcc51597-7187-4304-bb56-0b508b9f4ff3.png">
 <img width="442" alt="image" src="https://user-images.githubusercontent.com/88579085/212469081-afb0c656-ee40-47a8-9b13-81a6829ac992.png">
+
 <img width="432" alt="image" src="https://user-images.githubusercontent.com/88579085/212469095-d0848247-7312-43ff-ba11-1125d3c55b4d.png">
 
 - What is the percentage of customers who Responded and Did Not Respond based on marital status?
@@ -106,10 +107,11 @@ However, due to time constraints, we have not had the opportunity to create visu
 <img width="169" alt="image" src="https://user-images.githubusercontent.com/88579085/213911728-2146d73b-5ae0-4b7c-8e5b-07dc220b363b.png">
 
 Based on the initial analysis, it can be observed that there are missing data in the income column totaling 24 rows, with a percentage of 1.07% of the total data, which is far below the safe data deletion threshold (10%). Therefore, the decision we made regarding the missing value is to delete all rows in the Income column with null (empty) values.
+
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/88579085/213911819-aae8c1b5-28bd-4f75-ac5b-ac2d2a48e052.png">
 
 ### Handle Duplicated Data
-> Based on the checking results, no duplicated data rows were found. Therefore, we do not need to handle duplicated data.
+Based on the checking results, no duplicated data rows were found. Therefore, we do not need to handle duplicated data.
 
 ### Handle Outliers
 <img width="642" alt="image" src="https://user-images.githubusercontent.com/88579085/213911867-96706d1e-ad23-457e-a1ab-eac426bcbd3b.png">
@@ -123,6 +125,7 @@ Based on the plots shown above, outliers exist in the 'Income', 'Year_Birth', 'R
 
 #### Remove Outliers berdasarkan IQR
 <img width="271" alt="image" src="https://user-images.githubusercontent.com/88579085/213911947-9f947ea7-ed65-4aec-adea-59423e98a1ef.png">
+
 Based on the calculations using Z-score and IQR, it can be seen that the number of rows deleted based on IQR is much higher than based on Z-score, which is about >30% of the total data rows deleted. Therefore, we decided to choose the Z-score method for removing outlier rows.
 
 After that, we plotted boxplots to re-examine the distribution of outliers in each feature.
@@ -190,6 +193,7 @@ Total accepted campaign
 <img width="975" alt="image" src="https://user-images.githubusercontent.com/88579085/213912707-8c64d389-8496-4a52-af79-7dea33cc883c.png">
 
 Total revenue
+
 <img width="170" alt="image" src="https://user-images.githubusercontent.com/88579085/213912721-564e455a-0025-4226-967f-509677265208.png">
 
 Total spent
@@ -254,32 +258,32 @@ Then, because there was an intermediate class imbalance in the target data, we d
 
 ## Default Modelling
 At this stage, we conducted exploration using all algorithms previously taught with the following results:
-![Modelling](/images/marketing-campaign_model1.png)
+![Modelling](/images/marketing-campaign_model1.PNG)
 
 Based on these results, we decided to delve deeper into 3 algorithms with the best precision and recall results, namely Decision Tree, Random Forest, and XGBoost.
 
 After further exploration with Hyperparameter Tuning on Decision Tree, Random Forest, and XGBoost, here is the summary of the final performance obtained:
-![Modelling](/images/marketing-campaign_model2.png)
+![Modelling](/images/marketing-campaign_model2.PNG)
 
 Based on the consideration of precision train value, recall, and the train-test gap obtained in these three models, it can be concluded that the most optimal model we obtained is Random Forest. This is because the model produces output with the highest precision and recall metrics values. Additionally, this model also tends to be the best fit, making it a suitable choice.
 
 ## Feature Importance
 From the previously selected modeling results, the following feature importance was obtained, which influences whether customers will respond to the campaign or not.
-![Modelling](/images/marketing-campaign_model3.png)
+![Modelling](/images/marketing-campaign_model3.PNG)
 
 # Recommendation
 ## Income
-![Modelling](/images/marketing-campaign_model4.png)
+![Modelling](/images/marketing-campaign_model4.PNG)
 Based on the visualization results displayed above, we recommend the company to focus more on the campaign towards customers with income above 70000 to enhance campaign response. Additionally, to increase traffic, the company can implement a loyalty system by offering special points to customers meeting this criteria. These points can be redeemed for various attractive rewards such as discounts or free product offerings.
 
 ## Recency
-![Modelling](/images/marketing-campaign_model5.png)
+![Modelling](/images/marketing-campaign_model5.PNG)
 Based on the visualization results above, in the future, the company can focus more on the campaign towards customers who have recently made purchases close to the time of the upcoming campaign.
 
 Furthermore, in the future, the company should also pay more attention to reaching out to customers who haven't shopped for a long time or who have never shopped before by offering special promotions such as new user discount vouchers, old user discount vouchers, etc. Additionally, the company can conduct direct monthly promotions (like 2.2, 3.3, etc.) to maintain customer traffic by establishing a monthly shopping habit. Lastly, the company can also invest in placing e-billboards or other ads aimed at attracting new users in general.
 
 ## Total Spent
-![Modelling](/images/marketing-campaign_model6.png)
+![Modelling](/images/marketing-campaign_model6.PNG)
 Based on the visualization results above, in the future, the company can offer special campaigns to customers who have the highest total spent before the upcoming campaign period.
 
 Additionally, the company needs to increase customers' total spending by improving and maintaining the quality of the products sold, for example, by consistently offering fresh produce such as fruits, fish, and meat. Moreover, the company can provide special promotions using the "up-selling/cross-selling" strategy, offering additional discounts on supporting products related to the items purchased by customers. Finally, the company can also offer special vouchers to customers with a minimum spending requirement.
