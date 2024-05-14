@@ -12,7 +12,7 @@ categories: portofolio
 
 <strong>Authors: Jesslyn Jane, Aditya Ridwan, Ann Sinaga, Lhutfia Ichsan, Mustiadi Zakki, M. Triargi</strong>. This is a project I have worked through as part of the final capstone in [Rakamin Academy: Data Science Bootcamp](https://www.rakamin.com/job-guarantee-bootcamp/data-science). 
 
-[Github](https://github.com/Triargi/project_repo) | [Google Colab](http://localhost:8888/lab/tree/Documents/-Jeje-/-Rakamin-/Final_Project_Group9_Halcyon.ipynb) | [PPT](https://drive.google.com/file/d/1T77LtLIkWN8fb7LBPpI46ZkMPaJQmB5e/view?usp=sharing) | [All Processes](https://drive.google.com/drive/folders/1VtyL13TSufB3XsdLRxPZuVIMI_-8wlDU)
+[Github](https://github.com/Triargi/project_repo) \| [Google Colab](http://localhost:8888/lab/tree/Documents/-Jeje-/-Rakamin-/Final_Project_Group9_Halcyon.ipynb) \| [PPT](https://drive.google.com/file/d/1T77LtLIkWN8fb7LBPpI46ZkMPaJQmB5e/view?usp=sharing) \| [All Processes](https://drive.google.com/drive/folders/1VtyL13TSufB3XsdLRxPZuVIMI_-8wlDU)
 
 
 # Introduction 
@@ -288,4 +288,4 @@ Based on the visualization results above, in the future, the company can offer s
 
 Additionally, the company needs to increase customers' total spending by improving and maintaining the quality of the products sold, for example, by consistently offering fresh produce such as fruits, fish, and meat. Moreover, the company can provide special promotions using the "up-selling/cross-selling" strategy, offering additional discounts on supporting products related to the items purchased by customers. Finally, the company can also offer special vouchers to customers with a minimum spending requirement.
 
-[Github](https://github.com/Triargi/project_repo) | [Google Colab](http://localhost:8888/lab/tree/Documents/-Jeje-/-Rakamin-/Final_Project_Group9_Halcyon.ipynb) | [PPT](https://drive.google.com/file/d/1T77LtLIkWN8fb7LBPpI46ZkMPaJQmB5e/view?usp=sharing) | [All Processes](https://drive.google.com/drive/folders/1VtyL13TSufB3XsdLRxPZuVIMI_-8wlDU)
+[Github](https://github.com/Triargi/project_repo) \| [Google Colab](http://localhost:8888/lab/tree/Documents/-Jeje-/-Rakamin-/Final_Project_Group9_Halcyon.ipynb) \| [PPT](https://drive.google.com/file/d/1T77LtLIkWN8fb7LBPpI46ZkMPaJQmB5e/view?usp=sharing) \| [All Processes](https://drive.google.com/drive/folders/1VtyL13TSufB3XsdLRxPZuVIMI_-8wlDU)
