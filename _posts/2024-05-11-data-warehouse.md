@@ -2,7 +2,7 @@
 layout: article
 title: "Data Engineer: Data Warehouse & Store Procedure"
 share: true
-modified: 2017-02-12T14:18:57-04:00
+modified: 2024-05-15
 image:
     teaser: idx_partners.png
 categories: portofolio
