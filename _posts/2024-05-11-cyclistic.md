@@ -10,9 +10,9 @@ categories: portofolio
 
 *A project to analyze the differences between annual members and casual riders in their usage of Cyclistic bikes on an hourly, daily, and monthly basis, aiming to determine the most effective marketing strategies for converting casual riders into annual members.*
 
-<strong>Authors: Jesslyn Jane</strong>. This is a project I have worked through as part of the final capstone in [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). 
+<i>Authors: Jesslyn Jane</i>. This is a project I have worked through as part of the final capstone in [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). 
 
-[Kaggle](https://www.kaggle.com/code/jesslynjane/cyclistic-case-study-r) \| [PPT](https://drive.google.com/file/d/1kk3i_hWniZ0bl0FO1pNCBnHcoh4nO8te/view?usp=sharing)
+<strong>[Kaggle](https://www.kaggle.com/code/jesslynjane/cyclistic-case-study-r) \| [PPT](https://drive.google.com/file/d/1kk3i_hWniZ0bl0FO1pNCBnHcoh4nO8te/view?usp=sharing)</strong>
 
 
 ## Introduction
@@ -173,4 +173,4 @@ The cyclistic dataset has not completed yet without further studies, such as:
 * The number of rides were higher during summer season (June - September), check if the pattern is consistent with other years
 
 
-[Kaggle](https://www.kaggle.com/code/jesslynjane/cyclistic-case-study-r) \| [PPT](https://drive.google.com/file/d/1kk3i_hWniZ0bl0FO1pNCBnHcoh4nO8te/view?usp=sharing)
+<strong>[Kaggle](https://www.kaggle.com/code/jesslynjane/cyclistic-case-study-r) \| [PPT](https://drive.google.com/file/d/1kk3i_hWniZ0bl0FO1pNCBnHcoh4nO8te/view?usp=sharing)</strong>

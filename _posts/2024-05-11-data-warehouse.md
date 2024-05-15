@@ -10,9 +10,9 @@ categories: portofolio
 
 *A project aimed to create a data warehouse schema and store procedures to streamline a company's data workflow.*
 
-<strong>Author: Jesslyn Jane</strong>. This is a project I have worked through as part of the Virtual Internship final project at [ID/X Partners, Rakamin Academy](https://www.rakamin.com/virtual-internship-experience/data-engineer-id-x-partners).
+<i>Author: Jesslyn Jane</i>. This is a project I have worked through as part of the Virtual Internship final project at [ID/X Partners, Rakamin Academy](https://www.rakamin.com/virtual-internship-experience/data-engineer-id-x-partners).
 
-[Github](https://github.com/jesslynnjane/ID-X_Data_Engineer?tab=readme-ov-file#1-data-warehouse-creation) \| [PPT](https://drive.google.com/file/d/1eZDgUgX2j5LzYxUypwYbV_yE7xmZ7328/view?usp=sharing) \| [Video PPT](https://drive.google.com/file/d/1XNd25OtA1SDWuTOU_T_FsI-xfGocxehU/view?usp=sharing)
+<strong>[Github](https://github.com/jesslynnjane/ID-X_Data_Engineer?tab=readme-ov-file#1-data-warehouse-creation) \| [PPT](https://drive.google.com/file/d/1eZDgUgX2j5LzYxUypwYbV_yE7xmZ7328/view?usp=sharing) \| [Video PPT](https://drive.google.com/file/d/1XNd25OtA1SDWuTOU_T_FsI-xfGocxehU/view?usp=sharing)</strong>
 
 
 ## About Company
@@ -74,4 +74,4 @@ There are 2 SP created:
 ![BalancePerCustomer SP](/images/sp2.PNG)
 
 
-[Github](https://github.com/jesslynnjane/ID-X_Data_Engineer?tab=readme-ov-file#1-data-warehouse-creation) \| [PPT](https://drive.google.com/file/d/1eZDgUgX2j5LzYxUypwYbV_yE7xmZ7328/view?usp=sharing) \| [Video PPT](https://drive.google.com/file/d/1XNd25OtA1SDWuTOU_T_FsI-xfGocxehU/view?usp=sharing)
+<strong>[Github](https://github.com/jesslynnjane/ID-X_Data_Engineer?tab=readme-ov-file#1-data-warehouse-creation) \| [PPT](https://drive.google.com/file/d/1eZDgUgX2j5LzYxUypwYbV_yE7xmZ7328/view?usp=sharing) \| [Video PPT](https://drive.google.com/file/d/1XNd25OtA1SDWuTOU_T_FsI-xfGocxehU/view?usp=sharing)</strong>

@@ -10,9 +10,9 @@ categories: portofolio
 
 *A project aimed at identifying trends in consumer usage of Bellabeat devices, with the goal of leveraging these insights to foster new growth opportunities for Bellabeat and enhance its marketing strategy.*
 
-<strong>Author: Jesslyn Jane</strong>. This is a project I have worked through as part of the final capstone in [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). 
+<i>Author: Jesslyn Jane</i>. This is a project I have worked through as part of the final capstone in [Google Data Analytics Professional Certificate](https://www.coursera.org/professional-certificates/google-data-analytics). 
 
-[Kaggle](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet) \| [PPT](https://drive.google.com/file/d/1DMqqqfeJOWNRPO8WXe8OGlhuECqGytNb/view?usp=sharing)
+<strong>[Kaggle](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet) \| [PPT](https://drive.google.com/file/d/1DMqqqfeJOWNRPO8WXe8OGlhuECqGytNb/view?usp=sharing)</strong>
 
 
 ## Introduction 
@@ -229,4 +229,4 @@ The act phase would be done by the production and marketing team of the company.
 * Tryon WW. Activity measurement in psychology and medicine. New York: Springer Science & Business Media; 2013.
 * Tudor-Locke CE, Bassett DR. How many steps are enough? Pedometer-determined physical activity indices. Sports Med. 2004;34(1):1–8. 
 
-[Kaggle](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet) \| [PPT](https://drive.google.com/file/d/1DMqqqfeJOWNRPO8WXe8OGlhuECqGytNb/view?usp=sharing)
+<strong>[Kaggle](https://www.kaggle.com/code/jesslynjane/bellabeat-case-study-sql-tableau-spreadsheet) \| [PPT](https://drive.google.com/file/d/1DMqqqfeJOWNRPO8WXe8OGlhuECqGytNb/view?usp=sharing)</strong>
