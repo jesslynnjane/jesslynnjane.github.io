@@ -27,8 +27,8 @@ In dynamic environments, I've found my niche, navigating through programming lan
   <div style="width:30%; float: left; display: inline-block;">
       <p><strong>August 2020 - November 2021</strong></p></div>
   <div style="width:70%; float: left; display: inline-block;">
-      <p><strong>Database Geologist</strong> 
-      <br><i>PT Merdeka Copper Gold Tbk</i> 
+      <p><strong>Junior Geologist</strong> 
+      <br><i>PT Kapuas Prima Coal Tbk</i> 
       <br>Key Responsibilities:
       <li>Collect and analyze the timeline of mining permit data, execute all the required documents for permit uses, created monthly, quarterly, and annual reports</li>
       <li>Handle drilling plan database using Excel and data validation using mining software, contribute to manage detailed database for Geological Modelling </li></p></div>
