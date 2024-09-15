@@ -44,6 +44,22 @@ In dynamic environments, I've found my niche, navigating through programming lan
       <li>Responsible for preparing thin sections, polished sections, analysing X-Ray Fluorescence (XRF), and Scanning Electron Microscopy-Energy Dispersive Spectroscopy (SEM-EDS) in accordance to compare the geochemical characteristic of phreatic and phreatomagmatic volcanic ashes at Mt. Merapi.</li></p></div>
 </div>
 
+## Education
+<div style="display:block; width:100%">
+  <div style="width:30%; float: left; display: inline-block;">
+      <p><strong>2016 - 2020</strong></p></div>
+  <div style="width:70%; float: left; display: inline-block;">
+      <p><strong>Bachelor of Engineering, Geology</strong> 
+      <br><i>Gadjah Mada University</i> </p></div>
+</div>
+
+<div style="display:block; width:100%">
+  <div style="width:30%; float: left; display: inline-block;">
+      <p><strong>2013 - 2016</strong></p></div>
+  <div style="width:70%; float: left; display: inline-block;">
+      <p><strong>High School Graduate, Mathematics and Science Specialization Track</strong> 
+      <br><i>Sutomo 1 High School</i> </p></div>
+</div>
 
 ## Leaderships & Organizations
 <div style="display:block; width:100%">
