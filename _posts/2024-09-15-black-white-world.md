@@ -20,6 +20,7 @@ It all started when I was in 5th grade. My art teacher asked me to draw with a p
 ## Materials
 
 I used Staedtler pencils, starting with types HB, B, 2B, 3B, 4B, 5B, and going up to 6B. These pencils were perfect for beginners, and I still use them to create black-and-white pieces today.
+
 ![staedler](/images/artwork/art_staedler.PNG)
 
 
@@ -35,7 +36,7 @@ I used Staedtler pencils, starting with types HB, B, 2B, 3B, 4B, 5B, and going u
 ![blackwhite](/images/artwork/DSCF6633.JPG)
 ![blackwhite](/images/artwork/DSCF6634.JPG)
 ![blackwhite](/images/artwork/DSCF6635.JPG)
-![blackwhite](/images/artwork/DSCF6636.JPG)
+![blackwhite](/images/artwork/DSCF6636.jpg)
 ![blackwhite](/images/artwork/DSCF6637.JPG)
 ![blackwhite](/images/artwork/DSCF6638.JPG)
-![blackwhite](/images/artwork/DSCF6639.JPG)
+![blackwhite](/images/artwork/DSCF6639.jpg)
