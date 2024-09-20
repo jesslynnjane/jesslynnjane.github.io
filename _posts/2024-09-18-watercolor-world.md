@@ -48,7 +48,7 @@ Currently, I use Joyko watercolor pockets, which are more efficient and portable
 ![watercolor](/images/artwork/DSCF6663.JPG)
 ![watercolor](/images/artwork/DSCF6664.JPG)
 ![watercolor](/images/artwork/DSCF6665.JPG)
-![watercolor](/images/artwork/DSCF6666.JPG)
+![watercolor](/images/artwork/DSCF6666.jpg)
 ![watercolor](/images/artwork/DSCF6669.JPG)
 ![watercolor](/images/artwork/DSCF6670.JPG)
 ![watercolor](/images/artwork/DSCF6674.JPG)
