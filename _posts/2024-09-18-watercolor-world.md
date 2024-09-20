@@ -2,9 +2,9 @@
 layout: article
 title: "Watercolor World"
 share: true
-modified: 2024-09-15
+modified: 2024-09-18
 image:
-    teaser: blackwhite.png
+    teaser: watercolor.png
 categories: artwork
 ---
 

@@ -4,7 +4,7 @@ title: "Black & White World"
 share: true
 modified: 2024-09-15
 image:
-    teaser: blackwhite.png
+    teaser: black-white.png
 categories: artwork
 ---
 

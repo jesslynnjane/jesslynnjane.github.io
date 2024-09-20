@@ -2,9 +2,9 @@
 layout: article
 title: "Pencil Color World"
 share: true
-modified: 2024-09-15
+modified: 2024-09-16
 image:
-    teaser: blackwhite.png
+    teaser: coloured-pencil.png
 categories: artwork
 ---
 
