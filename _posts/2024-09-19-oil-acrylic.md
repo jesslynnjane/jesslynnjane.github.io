@@ -33,7 +33,18 @@ The supplies needed for oil and acrylic painting are similar to those for waterc
 ![acrylic](/images/artwork/maries.PNG)
 
 ## Result
+> Oil Painting
+
 ![oil](/images/artwork/DSCF6701.jpg)
 ![oil](/images/artwork/DSCF6694.jpg)
 ![oil](/images/artwork/DSCF6697.jpg)
+
+> Acrylic
+
+![acrylic](/images/artwork/acrylic_1.JPG)
+![acrylic](/images/artwork/acrylic_2.JPG)
+![acrylic](/images/artwork/acrylic_3.JPG)
+![acrylic](/images/artwork/acrylic_4.JPG)
+![acrylic](/images/artwork/acrylic_5.JPG)
+![acrylic](/images/artwork/acrylic_6.JPG)
 
