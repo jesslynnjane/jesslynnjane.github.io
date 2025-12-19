@@ -44,6 +44,22 @@ In dynamic environments, I've found my niche, navigating through programming lan
       <li>Responsible for preparing thin sections, polished sections, analysing X-Ray Fluorescence (XRF), and Scanning Electron Microscopy-Energy Dispersive Spectroscopy (SEM-EDS) in accordance to compare the geochemical characteristic of phreatic and phreatomagmatic volcanic ashes at Mt. Merapi.</li></p></div>
 </div>
 
+## Education
+<div style="display:block; width:100%">
+  <div style="width:30%; float: left; display: inline-block;">
+      <p><strong>2016 - 2020</strong></p></div>
+  <div style="width:70%; float: left; display: inline-block;">
+      <p><strong>Bachelor of Engineering, Geology</strong> 
+      <br><i>Gadjah Mada University</i> </p></div>
+</div>
+
+<div style="display:block; width:100%">
+  <div style="width:30%; float: left; display: inline-block;">
+      <p><strong>2013 - 2016</strong></p></div>
+  <div style="width:70%; float: left; display: inline-block;">
+      <p><strong>High School Graduate, Mathematics and Science Specialization Track</strong> 
+      <br><i>Sutomo 1 High School</i> </p></div>
+</div>
 
 ## Leaderships & Organizations
 <div style="display:block; width:100%">
@@ -143,6 +159,14 @@ In dynamic environments, I've found my niche, navigating through programming lan
   <div style="width:30%; float: left; display: inline-block;">
       <p><strong>2024</strong></p></div>
   <div style="width:70%; float: left; display: inline-block;">
+      <p><strong>Map Academy: get mapping quickly, with QGIS</strong> 
+      <br><i>Udemy</i> </p></div>
+</div>
+
+<div style="display:block; width:100%">
+  <div style="width:30%; float: left; display: inline-block;">
+      <p><strong>2024</strong></p></div>
+  <div style="width:70%; float: left; display: inline-block;">
       <p><strong>Anaconda Mapping & Logging Course</strong> 
       <br><i>Steve Garwin</i> </p></div>
 </div>
@@ -151,7 +175,7 @@ In dynamic environments, I've found my niche, navigating through programming lan
   <div style="width:30%; float: left; display: inline-block;">
       <p><strong>2023</strong></p></div>
   <div style="width:70%; float: left; display: inline-block;">
-      <p><strong>Pengawas Operasional Pertama (POP)</strong> 
+      <p><strong>A- First Level Operations Supervisor (Pengawas Operasional Pertama)</strong> 
       <br><i>PPSDM Minerba</i> </p></div>
 </div>
 

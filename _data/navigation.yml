@@ -5,6 +5,12 @@
   #excerpt: "Things I’ve analyzed, designed, or developed."
   #image: portofolio.PNG
 
+- title: GIS
+  url: /gis/
+
+- title: Artwork
+  url: /artwork/
+
 - title: GitHub
   url: https://github.com/jesslynnjane
 
